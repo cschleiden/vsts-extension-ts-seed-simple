@@ -1,0 +1,10 @@
+{
+  "name": "vsts-extension-ts-seed-simple",
+  "globalDependencies": {
+    "Q": "github:DefinitelyTyped/DefinitelyTyped/q/Q.d.ts#7ad4e09016898d9c4837e250121fef2aedbecaaa",
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#7ad4e09016898d9c4837e250121fef2aedbecaaa",
+    "knockout": "registry:dt/knockout#0.0.0+20160428162840",
+    "tfs": "file:node_modules/vss-web-extension-sdk/typings/tfs.d.ts",
+    "vss": "file:node_modules/vss-web-extension-sdk/typings/vss.d.ts"
+  }
+}

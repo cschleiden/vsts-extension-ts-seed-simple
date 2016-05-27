@@ -1,6 +1,4 @@
-﻿/// <reference path='../typings/tsd.d.ts' />
-
-var actionProvider =  {
+﻿var actionProvider =  {
     getMenuItems: (context) => {
         return [<IContributedMenuItem>{
             title: "Work Item Menu Action",
