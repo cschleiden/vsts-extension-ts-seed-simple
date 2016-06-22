@@ -35,7 +35,7 @@
                 files: [{
                     expand: true, 
                     flatten: true, 
-                    src: ["node_modules/vss-web-extension-sdk/lib/VSS.SDK.min.js"], 
+                    src: ["scripts/**/*.js","node_modules/vss-web-extension-sdk/lib/VSS.SDK.min.js"], 
                     dest: "dist/scripts",
                     filter: "isFile" 
                 },
