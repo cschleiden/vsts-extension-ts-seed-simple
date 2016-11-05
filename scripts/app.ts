@@ -19,5 +19,4 @@ var actionProvider =  {
 };
 
 // Register context menu action provider
-const publisherId = VSS.getExtensionContext().publisherId;
-VSS.register(`${ publisherId }.vsts-extension-ts-seed-simple.vsts-extension-ts-seed-simple-action`, actionProvider);
+VSS.register(VSS.getExtensionContext().extensionId, actionProvider);
