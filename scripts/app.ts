@@ -19,4 +19,4 @@ var actionProvider =  {
 };
 
 // Register context menu action provider
-VSS.register(VSS.getExtensionContext().extensionId, actionProvider);
+VSS.register(VSS.getContribution().id, actionProvider);
