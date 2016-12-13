@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "module": "amd",
+        "module": "umd",
         "sourceMap": false,
         "rootDir": "./scripts"
     },
@@ -8,5 +8,10 @@
         "./scripts/**/*.ts",
         "!**/*.tests.ts",
         "./typings/index.d.ts"
+    ],
+    "files": [
+        "scripts/app.ts",
+        "scripts/logic/messageHelper.ts",
+        "typings/index.d.ts"
     ]
 }
