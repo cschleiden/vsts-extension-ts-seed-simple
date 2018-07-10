@@ -2,6 +2,8 @@
 
 Very simple seed project for developing VSTS extensions using Typescript. Utilizes Typescript, grunt, and tsd. Detailed explanation how to get started can be found at https://cschleiden.wordpress.com/2016/02/24/extending-vsts-setup/.
 
+** For new projects I'd recommend starting with one of my more modern extensions like https://github.com/cschleiden/vsts-quick-decompose **
+
 ### Structure ###
 
 ```
@@ -17,6 +19,7 @@ vss-extension.json  - Extension manifest
 ### Version History ###
 
 ```
+0.8.0 - Update dependencies
 0.7.0 - Updated VSS SDK, moved from `typings` to `@types`
 0.6.0 - Updated VSS SDK to M104
 0.1.1 - Automatically increase extension's minor version when packaging.
